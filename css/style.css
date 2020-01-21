@@ -1,4 +1,7 @@
 /*typography*/
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Raleway";
@@ -155,7 +158,7 @@ header {
   text-shadow: 1px 1px 5px rgb(114, 110, 110);
   font-size: 1.125rem;
   font-weight: 500;
-  height: 6rem;
+  height: 30vh;
 }
 /* mens */
 .category:nth-child(1) {
@@ -185,7 +188,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48%;
+  width: 50%;
   border-bottom: 5px solid white;
   border-top: 5px solid white;
   border-right: 5px solid white;
@@ -203,7 +206,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48%;
+  width: 50%;
   border-bottom: 5px solid white;
   border-top: 5px solid white;
   border-left: 5px solid white;
@@ -221,7 +224,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 49%;
+  width: 50%;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
 }
 
 /* bags */
@@ -237,6 +243,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 50%;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
 }
 
 /* womens */
@@ -252,6 +261,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-top: 5px solid white;
 }
 
 /*images*/
@@ -270,7 +280,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 12.5rem;
+  height: 50vh;
 }
 
 .alohaLogo {
