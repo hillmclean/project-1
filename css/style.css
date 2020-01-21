@@ -129,7 +129,7 @@ header {
 }
 
 .containerFooter {
-  padding: 2.5rem 0.625rem 2.5rem 0.938rem;
+  padding: 1rem;
 }
 
 .containerUpdates {
@@ -163,7 +163,7 @@ header {
   padding: 3.125rem 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/mens-category.jpg);
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -179,7 +179,7 @@ header {
   padding: 3.125rem 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/trends-category.jpg);
-  background-position: 50% 0;
+  background-position: 50% center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -197,7 +197,7 @@ header {
   padding: 3.125rem 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/glasses-category.jpg);
-  background-position: 50% 0;
+  background-position: 50% center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -215,7 +215,7 @@ header {
   padding: 3.125rem 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/sale-category.jpg);
-  background-position: 50% 0;
+  background-position: 50% center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -230,7 +230,7 @@ header {
   padding: 3.125rem 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/bags-category.jpg);
-  background-position: 50% 0;
+  background-position: 50% bottom;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -245,7 +245,7 @@ header {
   padding: 3.125rem 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/womens-category.jpg);
-  background-position: 50% 0;
+  background-position: 50% top;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -315,17 +315,15 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.socialMedia .socialIcon {
-  font-size: 0.875rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
+.socialIcon {
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 
 .social:hover {
   color: coral;
 }
+
 .updates {
   display: flex;
   flex-direction: column;
