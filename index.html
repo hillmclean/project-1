@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aloha Apparel</title>
+    <!--Links-->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="screenSize">
+    <header class="containerHeader header">
+      <div class="headerImages">
+        <img class="alohaLogo" src="images/aloha-logo.svg" alt="Aloha Logo" />
+        <a href="www.google.com">
+        <img class="basketIcon" src="images/cart-icon.svg" alt="Cart icon"/></a>
+      </div>
+      <hr>
+      <nav class="navBar">
+        <ul>
+          <li>
+            <a class="navSpace" href="#About">About</a>
+          </li>
+          <li>
+            <a class="navSpace" href="#Shop">Shop</a>
+          </li>
+          <li>
+            <a class="navSpace" href="#Featured">Featured</a>
+          </li>
+          <li>
+            <a class="navSpace" href="#Updates">Updates</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="containerLarge banner">
+        <div class="bannerText">
+          <h1>New Collection</h1>
+          <h2>Spring/Summer 2019</h2>
+        </div>
+      </section>
+
+      <section class="containerAbout" id="About">
+        <h3><em>Hand-Crafted </em><strong>Styles</strong></h3>
+        <p>
+          Aloha Apparel Co. sells only the finest ready-to-travel clothing.
+          Browse our current selection of products or sign-up for updates below.
+        </p>
+      </section>
+
+      <section class="containerLarge containerShop" id="Shop">
+        <div class="category">Men's</div>
+        <div class="category">Trends</div>
+        <div class="category">Glasses</div>
+        <div class="category">Sale</div>
+        <div class="category">Bags</div>
+        <div class="category">Women's</div>
+      </section>
+
+      <section class="containerFeatured" id="Featured">
+        <h3><em>Most-Loved </em><strong>Products</strong></h3>
+        <ul>
+          <li>
+            <img
+              src="images/stretch-knit-dress.jpg"
+              alt="a picture of a stretch knit dress"
+            />
+            <h4>Dresses</h4>
+            <br>
+            <h5>Stretch Knit Dress</h5>
+            <br>
+            <h6>$169.00</h6>
+          </li>
+          <li>
+            <img
+              src="images/cotton-blue-shirt.jpg"
+              alt="a picture of a cotton blue shirt"
+            />
+            <h4>Shirts</h4>
+            <br>
+            <h5>Cotton Blue Shirt</h5>
+            <br>
+            <h6>$89.00</h6>
+          </li>
+          <li>
+            <img
+              src="images/checked-stretch-dress.jpg"
+              alt="a picture of a checked stretch dress"
+            />
+            <h4>Dresses</h4>
+            <br>
+            <h5>Checked Stretch Dress</h5>
+            <br>
+            <h6>$129.00</h6>
+          </li>
+          <li>
+            <img
+              src="images/blue-hipster-backpack.jpg"
+              alt="a picture of a blue hipster backpack"
+            />
+            <h4>Bags</h5>
+            <br>
+            <h5>Blue Hipster Backpack</h5>
+            <br>
+            <h6>$69.00</h6>
+          </li>
+          <li>
+            <img
+              src="images/demin-overall-shorts.jpg"
+              alt="a picture of denim overall shorts"
+            />
+            <h4>Denim</h4>
+            <br>
+            <h5>Denim Overall Shorts</h5>
+            <br>
+            <h6>$89.00</h6>
+          </li>
+          <li>
+            <img
+              src="images/pink-dotted-dress.jpg"
+              alt="a picture of a pink dotted dress"
+            />
+            <h4>Dresses</h4>
+            <br>
+            <h5>Pink Dotted Dress</h5>
+            <br>
+            <h6>$99.00</h6>
+          </li>
+          <li>
+            <img
+              src="images/blue-silk-dress.jpg"
+              alt="a picture of a blue silk dress"
+            />
+            <h4>Dresses</h5>
+            <br>
+            <h5>Blue Silk Dress</h5>
+            <br>
+            <h6>$119.00</h6>
+          </li>
+          <li>
+            <img
+              src="images/cotton-yellow-tshirt.jpg"
+              alt="a picture of a cotton yellow tshirt"
+            />
+            <h4>Shirts</h4>
+            <br>
+            <h5>Cotton Yellow Tshirt</h5>
+            <br>
+            <h6>$39.00</h6>
+          </li>
+        </ul>
+      </section>
+
+      <section class="containerLarge updates" id="Updates">
+        <h3 class="containerUpdates shadow">
+          <em>Sign-up for </em><strong>Updates</strong>
+        </h3>
+        <p class="containerUpdates">
+          Stay updated on our latest product releases, be first to find out
+          about upcoming sales, and get free style tips from our blog.
+          Unsubscribe at any time.
+        </p>
+        <form class="subscribeForm form">
+          <input
+            class="formInput"
+            type="email"
+            name="email"
+            placeholder="Your Email"
+          />
+          <input class="formSubmit" type="submit" value="Subscribe" />
+        </form>
+      </section>
+    </main>
+
+    <footer class="containerLarge footer">
+      <section class="containerFooter containerContact">
+        <p>© 2019 Aloha Apparel Co.<br />Powered by HTML and CSS.</p>
+        <br />
+        <p>604-604-6040. info@alohaapparel.com</p>
+        <br />
+        <p class="address">1490 W Broadway<br />Vancouver, BC, Canada</p>
+      </section>
+      <section class="containerFooter containerSocial">
+        <ul class="socialMedia">
+          <li>
+            <i class="fab fa-facebook-f socialIcon"></i>
+            <a class="social" href="www.facebook.com">Facebook</a>
+          </li>
+          <br />
+          <li>
+            <i class="fab fa-twitter socialIcon"></i>
+            <a class="social" href="wwww.twitter.com">Twitter</a>
+          </li>
+          <br />
+          <li>
+            <i class="fab fa-instagram socialIcon"></i>
+            <a class="social" href="www.instagram.com">Instagram</a>
+          </li>
+          <br />
+          <li>
+            <i class="fab fa-pinterest socialIcon"></i>
+            <a class="social" href="www.pinterest.com">Pinterest</a>
+          </li>
+          <br>
+          <li>
+            <i class="fab fa-google-plus-g"></i>
+          </li>
+          <br />
+        </ul>
+      </section>
+    </footer>
+    </div>
+  </body>
+</html>

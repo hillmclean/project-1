@@ -1,0 +1,406 @@
+/*typography*/
+
+body {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+h1 {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 2.5rem;
+  color: white;
+  padding-top: 0.938rem;
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-size: 1.875rem;
+  padding-bottom: 1.25rem;
+}
+
+h4 {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "Playfair Display";
+  font-size: 0.75rem;
+}
+
+h6 {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-style: normal;
+}
+p {
+  line-height: 2;
+  font-size: 0.875rem;
+}
+main {
+  text-align: center;
+}
+
+nav {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navSpace {
+  padding: 0.5rem;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+header {
+  padding: 0px;
+}
+
+/* Container classes */
+
+.containerAbout {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1.5rem;
+}
+
+.containerHeader {
+  width: 94%;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 0.625rem;
+}
+
+.containerLarge {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.containerFeatured {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 2.5rem;
+}
+.containerContact {
+  width: 75%;
+  border: 1px solid black;
+  font-family: "Playfair Display";
+}
+
+.containerSocial {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  border: 1px solid black;
+}
+
+.containerFooter {
+  padding: 2.5rem 0.625rem 2.5rem 0.938rem;
+}
+
+.containerUpdates {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 0.625rem;
+}
+
+/* SHOP BOXES */
+
+.containerShop {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+.category {
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+  font-size: 1.125rem;
+  font-weight: 500;
+  height: 6rem;
+}
+/* mens */
+.category:nth-child(1) {
+  /*background-color: blue;*/
+  padding: 3.125rem 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/mens-category.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 5px solid white;
+}
+
+/* trends */
+.category:nth-child(2) {
+  /*background-color: green;*/
+  padding: 3.125rem 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/trends-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+}
+
+/* glasses */
+.category:nth-child(3) {
+  /*background-color: yellow;*/
+  padding: 3.125rem 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/glasses-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+}
+
+/* sale */
+.category:nth-child(4) {
+  /*background-color: purple;*/
+  padding: 3.125rem 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/sale-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+}
+
+/* bags */
+.category:nth-child(5) {
+  /*background-color: magenta;*/
+  padding: 3.125rem 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/bags-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+/* womens */
+.category:nth-child(6) {
+  /*background-color: orange;*/
+  padding: 3.125rem 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/womens-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*images*/
+
+.banner {
+  padding: 6.25rem 0rem;
+  background-image: linear-gradient(
+      rgba(50, 50, 50, 0.3),
+      rgba(50, 50, 50, 0.3)
+    ),
+    url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+  background-position: center bottom, center 60px, center;
+  background-repeat: no-repeat;
+  background-size: cover, 150px, cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 12.5rem;
+}
+
+.alohaLogo {
+  width: 120px;
+}
+
+.basketIcon {
+  width: 50px;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  border-top: 10px solid white;
+  text-align: center;
+}
+
+/* header layout ----- */
+
+.headerImages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.socialMedia .socialIcon {
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.social:hover {
+  color: coral;
+}
+.updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6.25rem 0 9.375rem 0;
+  background-image: linear-gradient(
+      rgba(126, 123, 123, 0.3),
+      rgba(172, 169, 169, 0.3)
+    ),
+    url(../images/wave-bkgd.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 6.25rem;
+  color: white;
+}
+
+.social {
+  color: white;
+  display: none;
+}
+
+.address {
+  opacity: 70%;
+}
+
+.shadow {
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+}
+
+/* FORM */
+
+.subscribeForm {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+  max-width: 380px;
+}
+
+.formInput {
+  width: 500px;
+  height: 45px;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+input::placeholder {
+  padding-left: 25px;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.formSubmit {
+  width: 125px;
+  height: 40px;
+  background: red;
+  color: #fff;
+  padding: 2px 10px;
+  position: absolute;
+  top: 1.5px;
+  right: 3px;
+  border-radius: 30px;
+  margin: 2px 0px 2px 0px;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.screenSize {
+  max-width: 1240px;
+}
+
+/* ABOVE IS MOBILE */
+
+/* Media Queries (breakpoints) -- for mobile first
+-------------------------------- */

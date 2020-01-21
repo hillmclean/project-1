@@ -1,0 +1,386 @@
+/*typography*/
+
+body {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+h1 {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 2.5rem;
+  color: white;
+  padding-top: 0.938rem;
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-size: 1.875rem;
+  padding-bottom: 1.25rem;
+}
+
+h4 {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "Playfair Display";
+  font-size: 0.75rem;
+}
+
+h6 {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-style: normal;
+}
+p {
+  line-height: 2;
+  font-size: 0.875rem;
+}
+main {
+  text-align: center;
+}
+
+nav {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navSpace {
+  padding: 0.5rem;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+header {
+  padding: 0px;
+}
+
+/* Container classes */
+
+.containerSmall {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.containerHeader {
+  width: 95%;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.containerLarge {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.containerFeatured {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 50px;
+}
+.containerContact {
+  width: 75%;
+  border: 1px solid black;
+  font-family: "Playfair Display";
+}
+
+.containerSocial {
+  display: flex;
+  justify-content: flex-start;
+  width: 25%;
+  border: 1px solid black;
+}
+
+.containerFooter {
+  padding: 50px 10px 50px 15px;
+}
+
+.containerUpdates {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* SHOP BOXES */
+
+.containerShop {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.category {
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+  font-size: 20px;
+  font-weight: 500;
+}
+/* mens */
+.category:nth-child(1) {
+  /*background-color: blue;*/
+  flex-grow: 4;
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/mens-category.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* trends */
+.category:nth-child(2) {
+  /*background-color: green;*/
+  flex-grow: 1;
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/trends-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* glasses */
+.category:nth-child(3) {
+  /*background-color: yellow;*/
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/glasses-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* sale */
+.category:nth-child(4) {
+  /*background-color: purple;*/
+  flex-grow: 1;
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/sale-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bags */
+.category:nth-child(5) {
+  /*background-color: magenta;*/
+  flex-grow: 1;
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/bags-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* womens */
+.category:nth-child(6) {
+  /*background-color: orange;*/
+  flex-grow: 4;
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/womens-category.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*images*/
+
+.banner {
+  padding: 100px 0px;
+  background-image: linear-gradient(
+      rgba(50, 50, 50, 0.3),
+      rgba(50, 50, 50, 0.3)
+    ),
+    url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+  background-position: center bottom, center 60px, center;
+  background-repeat: no-repeat;
+  background-size: 1264px, 150px, cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.alohaLogo {
+  width: 120px;
+}
+
+.basketIcon {
+  width: 50px;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  font-size: 12px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  border-top: 10px solid white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMedia {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.social:hover {
+  color: coral;
+}
+.updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 150px 0;
+  background-image: linear-gradient(
+      rgba(126, 123, 123, 0.3),
+      rgba(172, 169, 169, 0.3)
+    ),
+    url(../images/wave-bkgd.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  height: 100px;
+  color: white;
+}
+
+i {
+  width: 25px;
+}
+
+.social {
+  color: white;
+}
+
+.address {
+  opacity: 70%;
+}
+
+.shadow {
+  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+}
+
+/* FORM */
+
+.subscribeForm {
+  position: relative;
+  top: 40px;
+  width: 500px;
+}
+
+.formInput {
+  width: 500px;
+  height: 45px;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+input::placeholder {
+  padding-left: 25px;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.formSubmit {
+  width: 125px;
+  height: 40px;
+  background: red;
+  color: #fff;
+  padding: 2px 10px;
+  position: absolute;
+  top: 1.5px;
+  right: 0;
+  border-radius: 30px;
+  margin: 2px 0px 2px 0px;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.screenSize {
+  max-width: 1240px;
+}
+
+/* ABOVE IS MOBILE */
+
+/* Media Queries (breakpoints) -- for mobile first
+-------------------------------- */
