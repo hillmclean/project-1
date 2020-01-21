@@ -280,7 +280,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 50vh;
+  height: 63vh;
 }
 
 .alohaLogo {
@@ -347,7 +347,7 @@ hr {
     url(../images/wave-bkgd.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 6.25rem;
+  height: 55vh;
   color: white;
 }
 
