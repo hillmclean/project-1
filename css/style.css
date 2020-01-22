@@ -312,6 +312,7 @@ header {
 .header-images {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 0.5rem;
 }
 
@@ -412,3 +413,6 @@ input::placeholder {
 
 /* Media Queries (breakpoints) -- for mobile first
 -------------------------------- */
+
+@media screen and (min-width: 600px) {
+}
