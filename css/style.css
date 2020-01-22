@@ -132,6 +132,7 @@ header {
   justify-content: center;
   width: 25%;
   border: 1px solid black;
+  padding-bottom: 10rem;
 }
 
 .containerFooter {
@@ -400,6 +401,9 @@ input::placeholder {
   font-size: 16px;
 }
 
+.containerSocial {
+  padding-bottom: 4rem;
+}
 .screenSize {
   max-width: 1240px;
 }
