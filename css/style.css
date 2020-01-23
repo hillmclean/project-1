@@ -444,17 +444,21 @@ input::placeholder {
   .basket-icon {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 50px;
-    padding-bottom: 0.5rem;
+    order: 1;
+    padding: 0px;
   }
 
   .nav-bar {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     border-top: none;
     width: 100%;
+    text-align: center;
   }
 
   /* end of header layout ----- */
