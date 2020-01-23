@@ -179,7 +179,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border-bottom: 5px solid white;
+  border-bottom: 0.25rem solid white;
 }
 
 /* trends */
@@ -195,9 +195,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 50%;
-  border-bottom: 5px solid white;
-  border-top: 5px solid white;
-  border-right: 5px solid white;
+  border-bottom: 0.25rem solid white;
+  border-top: 0.25rem solid white;
+  border-right: 0.25rem solid white;
 }
 
 /* glasses */
@@ -213,9 +213,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 50%;
-  border-bottom: 5px solid white;
-  border-top: 5px solid white;
-  border-left: 5px solid white;
+  border-bottom: 0.25rem solid white;
+  border-top: 0.25rem solid white;
+  border-left: 0.25rem solid white;
 }
 
 /* sale */
@@ -231,9 +231,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 50%;
-  border-bottom: 5px solid white;
-  border-top: 5px solid white;
-  border-right: 5px solid white;
+  border-bottom: 0.25rem solid white;
+  border-top: 0.25rem solid white;
+  border-right: 0.25rem solid white;
 }
 
 /* bags */
@@ -249,9 +249,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 50%;
-  border-bottom: 5px solid white;
-  border-top: 5px solid white;
-  border-left: 5px solid white;
+  border-bottom: 0.25rem solid white;
+  border-top: 0.25rem solid white;
+  border-left: 0.25rem solid white;
 }
 
 /* womens */
@@ -267,7 +267,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border-top: 5px solid white;
+  border-top: 0.25rem solid white;
 }
 
 /*images*/
@@ -276,7 +276,7 @@ header {
   padding: 6.25rem 0rem;
   background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-  background-position: center bottom, center 60px, center;
+  background-position: center bottom, center 30px, center;
   background-repeat: no-repeat;
   background-size: cover, 150px, cover;
   display: flex;
@@ -310,14 +310,14 @@ header {
 }
 
 .aloha-logo {
-  width: 120px;
+  width: 7.5rem;
   padding-bottom: 0.5rem;
 }
 
 .basket-icon {
   display: flex;
   justify-content: flex-end;
-  width: 50px;
+  width: 3.125rem;
   padding-bottom: 0.5rem;
 }
 
@@ -430,14 +430,10 @@ input::placeholder {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 100%;
-    border: 1px solid black;
-    margin: 0 auto;
   }
 
   .aloha-logo {
     display: flex;
-    width: 120px;
     padding-bottom: 0.5rem;
   }
 
@@ -445,7 +441,6 @@ input::placeholder {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 50px;
     order: 1;
     padding: 0px;
   }
@@ -454,12 +449,82 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
     border-top: none;
-    width: 100%;
     text-align: center;
   }
+  /* end of  header layout for tablet */
 
-  /* end of header layout ----- */
+  .banner {
+    padding: 6.25rem 0rem;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-position: center bottom, center 25px, center;
+    background-repeat: no-repeat;
+  }
+  .container-about {
+    width: 100%;
+  }
+
+  /* SHOP BOXES --------------------*/
+
+  .category {
+    height: 25vh;
+  }
+  /* mens */
+  .category:nth-child(1) {
+    width: 50%;
+    border-bottom: 0.25rem solid white;
+    border-right: 0.25rem solid white;
+  }
+
+  /* trends */
+  .category:nth-child(2) {
+    width: 25%;
+    border-bottom: 5px solid white;
+    border-top: none;
+    border-right: 0.25rem solid white;
+    border-left: 0.25rem solid white;
+  }
+
+  /* glasses */
+  .category:nth-child(3) {
+    width: 25%;
+    border-bottom: 0.25rem solid white;
+    border-top: none;
+    border-left: 0.25rem solid white;
+  }
+
+  /* sale */
+  .category:nth-child(4) {
+    width: 25%;
+    border-bottom: none;
+    border-top: 0.25rem solid white;
+    border-right: 0.25rem solid white;
+  }
+
+  /* bags */
+  .category:nth-child(5) {
+    width: 25%;
+    border-bottom: none;
+    border-top: 0.25rem solid white;
+    border-left: 0.25rem solid white;
+    border-right: 0.25rem solid white;
+  }
+
+  /* womens */
+  .category:nth-child(6) {
+    width: 50%;
+    border-top: 0.25rem solid white;
+    border-left: 0.25rem solid white;
+  }
+
+  /* END OF SHOP BOXES --------- */
+
+  .container-updates {
+    width: 100%;
+  }
+
+  .subscribe-form {
+    max-width: 600px;
+  }
 }
