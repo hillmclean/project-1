@@ -286,15 +286,6 @@ header {
   height: 63vh;
 }
 
-.aloha-logo {
-  width: 120px;
-}
-
-.basket-icon {
-  width: 50px;
-  padding: 0;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -309,10 +300,24 @@ header {
 
 /* header layout ----- */
 
-.header-images {
+.container-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.aloha-logo {
+  width: 120px;
+  padding-bottom: 0.5rem;
+}
+
+.basket-icon {
+  display: flex;
+  justify-content: flex-end;
+  width: 50px;
   padding-bottom: 0.5rem;
 }
 
@@ -322,7 +327,10 @@ header {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   border-top: 1px solid rgb(212, 212, 212);
+  width: 100%;
 }
+
+/* end of header layout ----- */
 
 .social-icon {
   font-size: 1rem;
@@ -414,5 +422,40 @@ input::placeholder {
 /* Media Queries (breakpoints) -- for mobile first
 -------------------------------- */
 
+/* for tablet --------------------------- */
 @media screen and (min-width: 600px) {
+  /* header layout for tablet */
+
+  .container-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+
+  .aloha-logo {
+    display: flex;
+    width: 120px;
+    padding-bottom: 0.5rem;
+  }
+
+  .basket-icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    padding-bottom: 0.5rem;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-top: none;
+    width: 100%;
+  }
+
+  /* end of header layout ----- */
 }
