@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const messageValue = subscribeFormInput.value;
     if (messageValue.length <= 0) {
       // similar to what you will do for Aloha
-      alert("You have not entered an email address.");
+      alert("Please submit a valid email address.");
     } else {
-      alert("Thank you for subscribing.");
+      alert("Thanks for subscribing!");
     }
   });
 }); // --------- end of doc ready
