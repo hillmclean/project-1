@@ -173,7 +173,7 @@ header {
   text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
   font-size: 1.4rem;
   font-weight: 500;
-  height: 25vw;
+  height: 50vw;
 }
 /* mens */
 .category:nth-child(1) {
@@ -438,6 +438,7 @@ input::placeholder {
   font-family: "Raleway";
   font-weight: 300;
   font-size: 16px;
+  box-shadow: none;
 }
 
 .form-submit:hover {
