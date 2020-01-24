@@ -20,9 +20,16 @@ document.addEventListener("DOMContentLoaded", function() {
     // options
   });
 
-  /*
+  // Email validation / check email input using if statement alert if input is empty
+  const subscribeForm = document.getElementsByClassName("subscribe-Form");
+  const formSubmit = document.querySelector(".subscribe-form input");
 
-  * Email validation / check email input using if statement alert if input is empty
-  * 
-  */
+  subscribeForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const messageValue = messageInput.value;
+    if (messageValue.length <= 0) {
+      // similar to what you will do for Aloha
+      alert("You have not entered an email address.");
+    }
+  });
 }); // --------- end of doc ready
