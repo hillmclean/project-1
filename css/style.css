@@ -373,7 +373,7 @@ header {
 }
 
 .shadow {
-  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+  text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
 }
 
 /* FORM */
@@ -436,6 +436,15 @@ input::placeholder {
 /* for tablet --------------------------- */
 @media screen and (min-width: 600px) {
   /* header layout for tablet */
+
+  body {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 1rem;
+    color: coral;
+    text-decoration: none;
+  }
 
   .container-header {
     display: flex;
@@ -622,5 +631,65 @@ input::placeholder {
     background-position: center bottom, center 75px, center;
     background-size: cover, 255px, cover;
     height: 580px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 4.1rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container-about {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .category {
+    height: 40vh;
+    font-size: 2rem;
+  }
+
+  .updates {
+    height: 45vh;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-bottom: 5rem;
+  }
+
+  .container-social {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    border: 1px solid black;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 5rem;
+  }
+
+  .subscribe-form {
+    max-width: 550px;
   }
 }
