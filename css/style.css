@@ -19,7 +19,7 @@ h1 {
   color: white;
   font-weight: 500;
   font-style: normal;
-  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+  text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
   font-size: 2.5rem;
   color: white;
   padding-top: 0.938rem;
-  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+  text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
 }
 
 h3 {
@@ -99,7 +99,6 @@ header {
 .container-about {
   width: 90%;
   margin: 0 auto;
-  border: 1px solid black;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
   padding-top: 3rem;
@@ -108,7 +107,6 @@ header {
 
 .container-header {
   width: 100%;
-  border: 1px solid black;
   margin: 0 auto;
   padding: 0.625rem;
 }
@@ -116,18 +114,15 @@ header {
 .container-large {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .container-featured {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
   padding: 2.5rem;
 }
 .container-contact {
   width: 90%;
-  border: 1px solid black;
   font-family: "Playfair Display";
   padding: 1rem;
 }
@@ -136,7 +131,6 @@ header {
   display: flex;
   justify-content: center;
   width: 40%;
-  border: 1px solid black;
   padding-bottom: 10rem;
 }
 
@@ -146,7 +140,6 @@ header {
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  border: 1px solid black;
   padding: 0.625rem;
 }
 
@@ -155,14 +148,13 @@ header {
 .container-shop {
   display: flex;
   flex-flow: row wrap;
-  border: 1px solid black;
   width: 100%;
 }
 
 .category {
   color: white;
   text-transform: uppercase;
-  text-shadow: 1px 1px 5px rgb(114, 110, 110);
+  text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
   font-size: 1.4rem;
   font-weight: 500;
   height: 30vh;
@@ -306,7 +298,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
@@ -327,7 +318,6 @@ header {
   justify-content: center;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  border-top: 1px solid rgb(212, 212, 212);
   width: 100%;
 }
 
@@ -397,7 +387,7 @@ input::placeholder {
   padding-left: 25px;
   font-family: "Raleway";
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .form-submit {
@@ -418,9 +408,6 @@ input::placeholder {
 
 .container-social {
   padding-bottom: 4rem;
-}
-.screen-size {
-  max-width: 1240px;
 }
 
 .carousel-cell {
@@ -574,7 +561,6 @@ input::placeholder {
     display: flex;
     align-items: center;
     width: 40%;
-    border: 1px solid black;
     padding-top: 3rem;
     padding-bottom: 2rem;
   }
@@ -652,7 +638,6 @@ input::placeholder {
   .container-about {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid black;
     padding-left: 20rem;
     padding-right: 20rem;
     padding-top: 3rem;
@@ -683,7 +668,6 @@ input::placeholder {
     display: flex;
     justify-content: flex-end;
     width: 40%;
-    border: 1px solid black;
     padding-top: 3rem;
     padding-bottom: 2rem;
     padding-right: 5rem;
