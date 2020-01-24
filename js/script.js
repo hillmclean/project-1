@@ -21,15 +21,18 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Email validation / check email input using if statement alert if input is empty
-  const subscribeForm = document.getElementsByClassName("subscribe-Form");
-  const formSubmit = document.querySelector(".subscribe-form input");
+  const subscribeForm = document.querySelector(".subscribe-form");
+  const subscribeFormInput = document.querySelector(".subscribe-form input");
 
   subscribeForm.addEventListener("submit", function(event) {
     event.preventDefault();
-    const messageValue = messageInput.value;
+    console.log("form submitted");
+    const messageValue = subscribeFormInput.value;
     if (messageValue.length <= 0) {
       // similar to what you will do for Aloha
       alert("You have not entered an email address.");
+    } else {
+      alert("Thank you for subscribing.");
     }
   });
 }); // --------- end of doc ready

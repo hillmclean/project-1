@@ -41,13 +41,15 @@ h4 {
   font-family: "Raleway";
   text-transform: uppercase;
   font-weight: 500;
+  font-size: 0.75rem;
   font-style: normal;
   color: #969696;
 }
 
 h5 {
   font-family: "Playfair Display";
-  font-size: 0.75rem;
+  font-size: 1.313rem;
+  padding: 1rem;
   color: #e2574c;
 }
 
@@ -57,10 +59,12 @@ h6 {
   font-style: normal;
   color: #969696;
 }
+
 p {
   line-height: 2;
   font-size: 0.875rem;
 }
+
 main {
   text-align: center;
 }
@@ -108,7 +112,10 @@ header {
 }
 
 .container-header {
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0.625rem;
 }
@@ -121,8 +128,7 @@ header {
 .container-featured {
   width: 100%;
   margin: 0 auto;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 10rem;
   height: 40rem;
 }
 
@@ -149,6 +155,10 @@ header {
   padding: 0.625rem;
 }
 
+.container-updates span {
+  margin-left: 1rem;
+}
+
 /* SHOP BOXES */
 
 .container-shop {
@@ -163,12 +173,12 @@ header {
   text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
   font-size: 1.4rem;
   font-weight: 500;
-  height: 30vh;
+  height: 25vw;
 }
 /* mens */
 .category:nth-child(1) {
   /*background-color: blue;*/
-  padding: 3.125rem 0px;
+  /* padding: 3.125rem 0px; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/mens-category.jpg);
   background-position: center bottom;
@@ -184,7 +194,7 @@ header {
 /* trends */
 .category:nth-child(2) {
   /*background-color: green;*/
-  padding: 3.125rem 0px;
+  /* padding: 3.125rem 0px; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/trends-category.jpg);
   background-position: 50% center;
@@ -202,7 +212,7 @@ header {
 /* glasses */
 .category:nth-child(3) {
   /*background-color: yellow;*/
-  padding: 3.125rem 0px;
+  /* padding: 3.125rem 0px; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/glasses-category.jpg);
   background-position: 50% center;
@@ -220,7 +230,7 @@ header {
 /* sale */
 .category:nth-child(4) {
   /*background-color: purple;*/
-  padding: 3.125rem 0px;
+  /* padding: 3.125rem 0px; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/sale-category.jpg);
   background-position: 50% center;
@@ -238,7 +248,7 @@ header {
 /* bags */
 .category:nth-child(5) {
   /*background-color: magenta;*/
-  padding: 3.125rem 0px;
+  /* padding: 3.125rem 0px; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/bags-category.jpg);
   background-position: 50% bottom;
@@ -256,7 +266,7 @@ header {
 /* womens */
 .category:nth-child(6) {
   /*background-color: orange;*/
-  padding: 3.125rem 0px;
+  /* padding: 3.125rem 0px; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/womens-category.jpg);
   background-position: 50% top;
@@ -283,6 +293,10 @@ header {
   align-items: center;
   flex-direction: column;
   height: 400px;
+}
+
+.banner-text {
+  width: 80%;
 }
 
 .footer {
@@ -330,9 +344,24 @@ header {
 
 /* end of header layout ----- */
 
-.main-carousel .carousel-cell {
+.main-carousel {
+  padding-top: 10rem;
+}
+
+.carousel-cell {
   text-align: center;
   width: 100%; /* full width */
+}
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -120px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
 }
 
 .social-icon {
@@ -598,10 +627,11 @@ input::placeholder {
     display: none;
     font-size: 0rem;
   }
-}
-/*  for carousel  */
-.carousel-cell {
-  width: 50%;
+
+  /*  for carousel  */
+  .carousel-cell {
+    width: 50%;
+  }
 }
 
 /* for tablet END--------------------------- */
