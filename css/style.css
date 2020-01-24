@@ -423,6 +423,11 @@ input::placeholder {
   max-width: 1240px;
 }
 
+.carousel-cell {
+  width: 100%;
+  text-align: center;
+}
+
 /* ABOVE IS MOBILE */
 
 /* Media Queries (breakpoints) -- for mobile first
@@ -561,8 +566,8 @@ input::placeholder {
     align-items: center;
     width: 40%;
     border: 1px solid black;
-    padding-top: 4rem;
-    padding-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 
   .social {
@@ -582,23 +587,40 @@ input::placeholder {
     font-size: 0rem;
   }
 }
-
-/* ------ for carousel ------ */
-
-/* for mobile first see immediate below */
+/*  for carousel  */
 .carousel-cell {
-  width: 100%;
-  text-align: center;
+  width: 50%;
 }
 
-@media screen and (min-width: 600px) {
-  .carousel-cell {
-    width: 50%;
-  }
-}
+/* for tablet END--------------------------- */
+
+/* for desktop --------------------------- */
 
 @media screen and (min-width: 1240px) {
   .carousel-cell {
     width: 25%;
+  }
+
+  .aloha-logo {
+    width: 10rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .basket-icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 4rem;
+    padding-bottom: 0rem;
+    padding-right: 0.5rem;
+  }
+
+  .banner {
+    padding: 6.25rem 0rem;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-position: center bottom, center 75px, center;
+    background-size: cover, 255px, cover;
+    height: 580px;
   }
 }
