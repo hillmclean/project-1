@@ -411,6 +411,10 @@ input::placeholder {
   font-size: 16px;
 }
 
+.form-submit:hover {
+  background: #b64036;
+}
+
 .container-social {
   padding-bottom: 4rem;
 }
@@ -434,11 +438,11 @@ input::placeholder {
   }
 
   li:hover {
-    color: #e2574c;
+    color: #b64036;
   }
 
   .social:hover {
-    color: #e2574c;
+    color: #b64036;
   }
 
   .container-header {
