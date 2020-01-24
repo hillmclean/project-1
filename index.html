@@ -13,8 +13,12 @@
       integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- flickity and JS -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./js/script.js"></script>
   </head>
 
   <body>
@@ -68,96 +72,56 @@
 
       <section class="container-featured" id="Featured">
         <h3><em>Most-Loved </em><strong>Products</strong></h3>
-        <ul>
-          <li>
-            <img
-              src="images/stretch-knit-dress.jpg"
-              alt="a picture of a stretch knit dress"
-            />
+        <div class="main-carousel">
+          <div class="carousel-cell">
+            <img src="images/stretch-knit-dress.jpg" alt="a picture of a stretch knit dress" />
             <h4>Dresses</h4>
-            <br>
             <h5>Stretch Knit Dress</h5>
-            <br>
             <h6>$169.00</h6>
-          </li>
-          <li>
-            <img
-              src="images/cotton-blue-shirt.jpg"
-              alt="a picture of a cotton blue shirt"
-            />
+          </div>
+          <div class="carousel-cell">
+            <img src="images/cotton-blue-shirt.jpg" alt="a picture of a cotton blue shirt"/>
             <h4>Shirts</h4>
-            <br>
             <h5>Cotton Blue Shirt</h5>
-            <br>
             <h6>$89.00</h6>
-          </li>
-          <li>
-            <img
-              src="images/checked-stretch-dress.jpg"
-              alt="a picture of a checked stretch dress"
-            />
+          </div>
+          <div class="carousel-cell">
+            <img src="images/checked-stretch-dress.jpg" alt="a picture of a checked stretch dress"/>
             <h4>Dresses</h4>
-            <br>
             <h5>Checked Stretch Dress</h5>
-            <br>
             <h6>$129.00</h6>
-          </li>
-          <li>
-            <img
-              src="images/blue-hipster-backpack.jpg"
-              alt="a picture of a blue hipster backpack"
-            />
+          </div>
+          <div class="carousel-cell">
+            <img src="images/blue-hipster-backpack.jpg" alt="a picture of a blue hipster backpack"/>
             <h4>Bags</h5>
-            <br>
             <h5>Blue Hipster Backpack</h5>
-            <br>
             <h6>$69.00</h6>
-          </li>
-          <li>
-            <img
-              src="images/demin-overall-shorts.jpg"
-              alt="a picture of denim overall shorts"
-            />
+          </div>
+          <div class="carousel-cell">
+            <img src="images/demin-overall-shorts.jpg" alt="a picture of denim overall shorts"/>
             <h4>Denim</h4>
-            <br>
             <h5>Denim Overall Shorts</h5>
-            <br>
             <h6>$89.00</h6>
-          </li>
-          <li>
-            <img
-              src="images/pink-dotted-dress.jpg"
-              alt="a picture of a pink dotted dress"
-            />
-            <h4>Dresses</h4>
-            <br>
-            <h5>Pink Dotted Dress</h5>
-            <br>
-            <h6>$99.00</h6>
-          </li>
-          <li>
-            <img
-              src="images/blue-silk-dress.jpg"
-              alt="a picture of a blue silk dress"
-            />
+          </div>
+          <div>
+          <img src="images/pink-dotted-dress.jpg" alt="a picture of a pink dotted dress"/>
+          <h4>Dresses</h4>
+          <h5>Pink Dotted Dress</h5>
+          <h6>$99.00</h6>
+          </div>
+          <div>
+            <img src="images/blue-silk-dress.jpg" alt="a picture of a blue silk dress"/>
             <h4>Dresses</h5>
-            <br>
             <h5>Blue Silk Dress</h5>
-            <br>
             <h6>$119.00</h6>
-          </li>
-          <li>
-            <img
-              src="images/cotton-yellow-tshirt.jpg"
-              alt="a picture of a cotton yellow tshirt"
-            />
+          </div>
+          <div>
+            <img src="images/cotton-yellow-tshirt.jpg" alt="a picture of a cotton yellow tshirt"/>
             <h4>Shirts</h4>
-            <br>
             <h5>Cotton Yellow Tshirt</h5>
-            <br>
             <h6>$39.00</h6>
-          </li>
-        </ul>
+          </div> 
+        </div>
       </section>
 
       <section class="container-large updates" id="Updates">
@@ -182,7 +146,7 @@
     </main>
 
     <footer class="container-large footer">
-      <section class="container-footer container-contact">
+      <section class="container-contact">
         <p>© 2019 Aloha Apparel Co.<br />Powered by HTML and CSS.</p>
         <br />
         <p>604-604-6040. info@alohaapparel.com</p>
