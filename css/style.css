@@ -489,9 +489,13 @@ input::placeholder {
     text-decoration: none;
   }
 
-  li:hover {
+  .hover:hover {
     color: #b64036;
   }
+
+  /* li:hover {
+    color: #b64036;
+  } */
 
   .social:hover {
     color: #b64036;
