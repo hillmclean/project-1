@@ -33,7 +33,7 @@ h2 {
 
 h3 {
   font-family: "Playfair Display";
-  font-size: 1.875rem;
+  font-size: 2.1rem;
   padding-bottom: 1.25rem;
 }
 
@@ -128,8 +128,8 @@ header {
 .container-featured {
   width: 100%;
   margin: 0 auto;
-  padding-top: 10rem;
-  height: 40rem;
+  padding-top: 4rem;
+  padding-bottom: 9rem;
 }
 
 .container-contact {
@@ -345,7 +345,7 @@ header {
 /* end of header layout ----- */
 
 .main-carousel {
-  padding-top: 10rem;
+  padding-top: 2rem;
 }
 
 .carousel-cell {
@@ -356,7 +356,7 @@ header {
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: -120px;
+  bottom: -110px;
   padding: 0;
   margin: 0;
   list-style: none;
