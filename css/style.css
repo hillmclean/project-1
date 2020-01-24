@@ -99,8 +99,6 @@ header {
 .container-about {
   width: 90%;
   margin: 0 auto;
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -119,8 +117,10 @@ header {
 .container-featured {
   width: 100%;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
+
 .container-contact {
   width: 90%;
   font-family: "Playfair Display";
@@ -319,9 +319,15 @@ header {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   width: 100%;
+  border-top: 1px solid rgb(212, 212, 212);
 }
 
 /* end of header layout ----- */
+
+.main-carousel .carousel-cell {
+  text-align: center;
+  width: 100%; /* full width */
+}
 
 .social-icon {
   font-size: 1rem;
@@ -410,11 +416,6 @@ input::placeholder {
   padding-bottom: 4rem;
 }
 
-.carousel-cell {
-  width: 100%;
-  text-align: center;
-}
-
 /* ABOVE IS MOBILE */
 
 /* Media Queries (breakpoints) -- for mobile first
@@ -468,8 +469,12 @@ input::placeholder {
     background-position: center bottom, center 60px, center;
     background-repeat: no-repeat;
   }
+
   .container-about {
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   /* SHOP BOXES --------------------*/
