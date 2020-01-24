@@ -11,6 +11,7 @@ body {
   font-family: "Raleway";
   font-weight: 300;
   font-size: 0.875rem;
+  color: #2d2d2d;
 }
 
 h1 {
@@ -119,12 +120,13 @@ header {
   margin: 0 auto;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  height: 40rem;
 }
 
 .container-contact {
   width: 90%;
   font-family: "Playfair Display";
-  padding: 1rem;
+  padding-top: 3rem;
 }
 
 .container-social {
@@ -132,6 +134,7 @@ header {
   justify-content: center;
   width: 40%;
   padding-bottom: 10rem;
+  padding-top: 1rem;
 }
 
 .container-updates {
@@ -348,14 +351,11 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
-      rgba(126, 123, 123, 0.3),
-      rgba(172, 169, 169, 0.3)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
     url(../images/wave-bkgd.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 55vh;
+  height: 50vh;
   color: white;
 }
 
@@ -546,6 +546,7 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     text-align: left;
+    padding-left: 2rem;
   }
 
   .containerContact {
