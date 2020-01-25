@@ -418,11 +418,11 @@ header {
   justify-content: center;
   position: relative;
   top: 10px;
-  max-width: 335px;
+  width: 90%;
 }
 
 .form-input {
-  width: 500px;
+  width: 31.25rem;
   height: 45px;
   border-radius: 30px;
   padding-left: 1rem;
@@ -447,7 +447,7 @@ input::placeholder {
 .form-submit {
   background: #e2574c;
   color: #fff;
-  padding: 0.65rem 1.5rem;
+  padding: 0.65rem 1.2rem;
   position: absolute;
   top: 0px;
   right: 4px;
@@ -612,7 +612,7 @@ input::placeholder {
     /* flex-direction: row-reverse; */
     flex-direction: column;
   }
-  i span:hover {
+  .fab.fa-facebook-f a {
     color: coral;
   }
 
