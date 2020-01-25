@@ -375,14 +375,19 @@ header {
   line-height: 1;
 }
 
-.social-icon {
+.social-media a {
   font-size: 1rem;
   padding: 0.5rem;
+  color: white;
 }
 
 .google-icon {
   font-size: 1rem;
   padding: 0.5rem;
+}
+
+.social-media span {
+  display: none;
 }
 
 .updates {
@@ -398,12 +403,6 @@ header {
   padding-bottom: 5rem;
   color: white;
 }
-
-.social {
-  color: white;
-  display: none;
-}
-
 .address {
   opacity: 70%;
 }
@@ -610,43 +609,26 @@ input::placeholder {
 
   .social-media {
     display: flex;
+    /* flex-direction: row-reverse; */
     flex-direction: column;
   }
-
-  .social-media li {
-    display: flex;
+  i span:hover {
+    color: coral;
   }
 
   .container-social {
-    display: flex;
     align-items: center;
     width: 40%;
     padding-top: 3rem;
     padding-bottom: 2rem;
   }
 
-  .social {
-    color: white;
-    display: flex;
+  .social-media span {
+    display: inline;
     flex-direction: row;
-    align-items: center;
-  }
-
-  .fab .fa-facebook-f::after {
-    margin-left: 5px;
-  }
-
-  .social-icon {
-    width: 2rem;
-    padding: 0.1rem;
-  }
-
-  .hover a {
+    font-size: 1rem;
+    padding: 0.5rem;
     color: white;
-  }
-
-  .hover a:hover {
-    color: coral;
   }
 
   .google-icon {
