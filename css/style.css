@@ -485,20 +485,7 @@ input::placeholder {
   }
   a {
     font-size: 1rem;
-    color: coral;
     text-decoration: none;
-  }
-
-  .hover:hover {
-    color: #b64036;
-  }
-
-  /* li:hover {
-    color: #b64036;
-  } */
-
-  .social:hover {
-    color: #b64036;
   }
 
   .container-header {
@@ -645,9 +632,21 @@ input::placeholder {
     align-items: center;
   }
 
+  .fab .fa-facebook-f::after {
+    margin-left: 5px;
+  }
+
   .social-icon {
     width: 2rem;
     padding: 0.1rem;
+  }
+
+  .hover a {
+    color: white;
+  }
+
+  .hover a:hover {
+    color: coral;
   }
 
   .google-icon {
