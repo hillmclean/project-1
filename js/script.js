@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
     cellAlign: "left",
     contain: true,
     wrapAround: true,
-    prevNextButtons: false
+    prevNextButtons: false,
+    autoPlay: true
   });
 
   // element argument can be a selector string
