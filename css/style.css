@@ -402,8 +402,9 @@ header {
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
     url(../images/wave-bkgd.jpg);
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 3rem;
   padding-bottom: 5rem;
   color: white;
@@ -421,6 +422,7 @@ header {
 .subscribe-form {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
   top: 10px;
   width: 90%;
@@ -492,9 +494,27 @@ input::placeholder {
   body {
     font-size: 1rem;
   }
+
   a {
     font-size: 1rem;
     text-decoration: none;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.3rem;
+    padding-bottom: 1.5rem;
   }
 
   .container-header {
@@ -534,16 +554,16 @@ input::placeholder {
   }
 
   .container-about {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   /* SHOP BOXES --------------------*/
 
   .category {
-    height: 25vh;
+    height: 25vw;
   }
   /* mens */
   .category:nth-child(1) {
@@ -595,12 +615,13 @@ input::placeholder {
 
   /* END OF SHOP BOXES --------- */
 
-  .container-updates {
-    width: 100%;
+  .updates {
+    padding-top: 5.25rem;
   }
 
   .subscribe-form {
-    max-width: 600px;
+    top: 20px;
+    width: 70%;
   }
 
   /* footer layout ---*/
@@ -609,18 +630,29 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     text-align: left;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 
-  .containerContact {
+  .container-contact {
     display: flex;
+    flex-direction: column;
     width: 75%;
+    font-size: 0.8rem;
+    padding-bottom: 4rem;
+  }
+
+  .container-contact p {
+    line-height: 1.5;
   }
 
   .social-media {
     display: flex;
     /* flex-direction: row-reverse; */
     flex-direction: column;
+  }
+
+  i {
+    width: 25px;
   }
 
   li:hover a {
@@ -719,17 +751,16 @@ input::placeholder {
   }
 
   .category {
-    height: 40vh;
     font-size: 2rem;
   }
 
-  .updates {
+  /* .updates {
     height: 45vh;
     padding-left: 20rem;
     padding-right: 20rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
+  } */
 
   .footer {
     display: flex;
@@ -747,7 +778,7 @@ input::placeholder {
     padding-right: 5rem;
   }
 
-  .subscribe-form {
+  /* .subscribe-form {
     max-width: 550px;
-  }
+  } */
 }
