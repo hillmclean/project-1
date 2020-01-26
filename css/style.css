@@ -354,6 +354,7 @@ header {
 
 .main-carousel {
   padding-top: 2rem;
+  align-content: center;
 }
 
 .carousel-cell {
@@ -703,7 +704,7 @@ input::placeholder {
     width: 50%;
   }
 
-  .container-header {
+  .fixed-header {
     position: fixed;
     right: 0;
     left: 0;
