@@ -127,6 +127,7 @@ header {
   width: 90%;
   font-family: "Playfair Display";
   padding-top: 3rem;
+  text-align: center;
 }
 
 .container-social {
@@ -292,7 +293,7 @@ header {
   background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
   background-position: center bottom, center 60px, center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat, repeat-y;
   background-size: cover, 150px, cover;
   display: flex;
   justify-content: center;
@@ -306,15 +307,24 @@ header {
 }
 
 .footer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem; */
+  background-color: #242424;
+  /* color: white;
+  border-top: 10px solid white;
+  text-align: center; */
+}
+
+.footer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 0.75rem;
-  background-color: #242424;
   color: white;
-  border-top: 10px solid white;
-  text-align: center;
 }
 
 /* header layout ----- */
@@ -542,8 +552,13 @@ input::placeholder {
     padding: 6.25rem 0rem;
     background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)),
       url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-    background-position: center bottom, center 60px, center;
+    background-position: center bottom, center 110px, center;
     background-repeat: no-repeat;
+    height: 450px;
+  }
+
+  .banner-text {
+    padding-top: 5rem;
   }
 
   .container-about {
@@ -749,9 +764,9 @@ input::placeholder {
     padding: 6.25rem 0rem;
     background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)),
       url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-    background-position: center bottom, center 75px, center;
+    background-position: center bottom, center 180px, center;
     background-size: cover, 255px, cover;
-    height: 580px;
+    height: 670px;
   }
 
   h1 {
