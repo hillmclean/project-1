@@ -534,6 +534,7 @@ input::placeholder {
   .nav-space {
     padding: 0.5rem;
   }
+
   /* end of  header layout for tablet */
 
   .banner {
@@ -700,6 +701,14 @@ input::placeholder {
   /*  for carousel  */
   .carousel-cell {
     width: 50%;
+  }
+
+  .container-header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
   }
 }
 
