@@ -643,6 +643,14 @@ input::placeholder {
     padding-bottom: 1.5rem;
   }
 
+  .fixed-header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+  }
+
   .container-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -659,6 +667,7 @@ input::placeholder {
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 0.5rem;
+    padding-top: 0.4rem;
     width: 3rem;
   }
 
@@ -675,7 +684,7 @@ input::placeholder {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-    padding: 0px;
+    padding-top: 0.4rem;
     width: 3rem;
   }
 
@@ -886,14 +895,6 @@ input::placeholder {
   .carousel-cell {
     width: 50%;
   }
-
-  .fixed-header {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 999;
-    background-color: white;
-  }
 }
 
 /* for tablet END--------------------------- */
@@ -961,13 +962,14 @@ input::placeholder {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    width: 1240px;
   }
 
-  .container-contact {
-    width: 70%;
-    margin: 0rem;
-    padding: 0rem;
-    margin-right: 50rem;
+  .container-contact p {
+    padding-left: 0rem;
+    /* padding-right: 40rem; */
+    font-size: 1rem;
+    /* width: 70%; */
   }
 
   .container-social {
@@ -977,11 +979,12 @@ input::placeholder {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    width: 30%;
     padding-top: 3rem;
     padding-bottom: 2rem;
     padding-left: 0rem;
-    padding-right: 0rem;
+    padding-right: 0.2rem;
     margin: 0rem;
+    font-size: 1rem;
+    /* width: 30%; */
   }
 }

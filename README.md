@@ -33,4 +33,4 @@ Working on the this project, I believe that the top three areas I need to work o
 
 1. FlexBox: Continue to watch the tutorials and complete FlexBox Zombies
 2. JavaScript: Continue working on the FreeCodeCamp JavaScript challenges and the Codecademy JavaScript lessons
-3. Organizing code in HTML and CSS
+3. Organization: Improve skills organizing code in HTML and CSS
