@@ -6,10 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Typography */
+/* TYPOGRAPHY ---------- */
 
 body {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 0.875rem;
   color: #2d2d2d;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   color: white;
   padding-top: 0.938rem;
@@ -33,13 +33,13 @@ h2 {
 }
 
 h3 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 2.1rem;
   padding-bottom: 1.25rem;
 }
 
 h4 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 0.75rem;
@@ -48,14 +48,14 @@ h4 {
 }
 
 h5 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 1.313rem;
   padding: 1rem;
   color: #e2574c;
 }
 
 h6 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-style: normal;
   color: #969696;
@@ -101,7 +101,7 @@ ul {
   text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.8);
 }
 
-/* containers */
+/* CONTAINERS ----------  */
 
 .container-about {
   width: 90%;
@@ -134,7 +134,7 @@ ul {
 
 .container-contact {
   width: 90%;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   padding-top: 3rem;
   text-align: center;
 }
@@ -178,7 +178,7 @@ ul {
   font-weight: bold;
 }
 
-/* SHOP BOXES */
+/* SHOP BOXES ---------- */
 
 .container-shop {
   display: -webkit-box;
@@ -355,7 +355,8 @@ ul {
   border-top: 0.25rem solid white;
 }
 
-/* banner */
+/* BANNER ---------- */
+
 .banner {
   padding: 6.25rem 0rem;
   background-image: -webkit-linear-gradient(
@@ -388,32 +389,8 @@ ul {
   width: 80%;
 }
 
-/* footer */
-.footer {
-  background-color: #242424;
-  padding-bottom: 5rem;
-  border-top: 8px solid white;
-}
+/* HEADER LAYOUT ---------- */
 
-.footer-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 0.75rem;
-  color: white;
-}
-
-/* header layout ----- */
 .container-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,7 +435,8 @@ ul {
   text-align: center;
 }
 
-/* carousel */
+/* CAROUSEL ---------  */
+
 .main-carousel {
   padding-top: 2rem;
   -ms-flex-line-pack: center;
@@ -467,7 +445,7 @@ ul {
 
 .carousel-cell {
   text-align: center;
-  width: 100%; /* full width */
+  width: 100%;
 }
 
 .flickity-page-dots {
@@ -481,16 +459,7 @@ ul {
   line-height: 1;
 }
 
-.social-media a {
-  font-size: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  color: white;
-}
-
-.social-media span {
-  display: none;
-}
+/* UPDATE LAYOUT ---------- */
 
 .updates {
   display: -webkit-box;
@@ -524,7 +493,7 @@ ul {
   opacity: 70%;
 }
 
-/* FORM */
+/* form */
 
 .subscribe-form {
   display: -webkit-box;
@@ -553,22 +522,22 @@ ul {
 }
 
 input::-webkit-input-placeholder {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 0.875rem;
 }
 input::-moz-placeholder {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 0.875rem;
 }
 input:-ms-input-placeholder {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 0.875rem;
 }
 input::placeholder {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 0.875rem;
 }
@@ -599,6 +568,43 @@ input::placeholder {
   background: #b64036;
 }
 
+/* FOOTER LAYOUT---------- */
+
+.footer {
+  background-color: #242424;
+  padding-bottom: 1rem;
+  border-top: 8px solid white;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.social-media a {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: white;
+}
+
+.social-media span {
+  display: none;
+}
+
 .container-contact a {
   text-decoration: underline;
   color: white;
@@ -611,8 +617,6 @@ input::placeholder {
 
 /* for tablet --------------------------- */
 @media screen and (min-width: 600px) {
-  /* header layout for tablet */
-
   body {
     font-size: 1rem;
   }
@@ -685,8 +689,6 @@ input::placeholder {
   .nav-space {
     padding: 0.5rem;
   }
-
-  /* end of  header layout for tablet */
 
   .banner {
     background-position: center bottom, center 110px, center;
