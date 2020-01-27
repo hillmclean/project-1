@@ -18,13 +18,14 @@ I have learned many things over the last 2 weeks about web development but the f
 
 - What responsive design means
 - That you should always design a website mobile-first
-- Basic HTMl and CSS design
+- Basic HTML and CSS design
 - How to use a FlexBox
 - How to install basic plugins using JavaScript
 - JavaScript Arrays and Functions
 - Tips on organizing code
 - How to git commit to GitHib
 - CSS specificities
+- How to troubleshoot using Inspect Dev Tools
 
 ## What I Need to Practice
 
