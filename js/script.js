@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-  console.log("document is ready");
+document.addEventListener("DOMContentLoaded", function () {
 
   // Flickity --------- //
   var elem = document.querySelector(".main-carousel");
@@ -17,9 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const subscribeForm = document.querySelector(".subscribe-form");
   const subscribeFormInput = document.querySelector(".subscribe-form input");
 
-  subscribeForm.addEventListener("submit", function(event) {
+  subscribeForm.addEventListener("submit", function (event) {
     event.preventDefault();
-    console.log("form submitted");
     const messageValue = subscribeFormInput.value;
     if (messageValue.length <= 0) {
       alert("Please submit a valid email address.");

@@ -15,6 +15,24 @@ body {
   color: #2d2d2d;
 }
 
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  clip: auto !important;
+  display: block;
+  height: auto;
+  left: 5px;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* above all content */
+}
+
 h1 {
   font-size: 1.125rem;
   text-transform: uppercase;
@@ -99,6 +117,10 @@ ul {
 
 .shadow {
   text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.8);
+}
+
+#Featured[tabindex="-1"]:focus {
+  outline: 0;
 }
 
 /* CONTAINERS ----------  */
