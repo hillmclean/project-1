@@ -893,9 +893,11 @@ input::placeholder {
     -ms-flex-align: center;
     align-items: center;
     width: 30%;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    padding-left: 1rem;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .container-social li {
+    margin: .5rem 0rem;
   }
 
   .social-media span {
